@@ -1,2 +1,8 @@
+import Express from 'express'
 
-console.log('hello')
+const app = Express()
+
+
+app.get('/',(req,res) => {
+  res.send('Hello')
+})

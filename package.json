@@ -1,10 +1,11 @@
 {
-  "name": "express-bolerplate",
+  "name": "express-ts-bolerplate",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve":"ts-node-dev src/index.ts"
+    "serve":"ts-node-dev src/index.ts",
+    "start":""
   },
   "dependencies": {
     "axios": "^0.19.1",
